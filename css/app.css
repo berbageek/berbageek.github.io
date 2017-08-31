@@ -29,6 +29,7 @@ h4.ui.header.inverted {
     opacity: .8;
     font-weight: normal;
     font-size: 18px;
+    margin-top: 1rem;
 }
 
 .logo {
@@ -67,6 +68,7 @@ h4.ui.header.inverted {
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
 .ui.button.primary:hover {
     background-color: #115ff9;
     box-shadow: 0 12px 28px 0 rgba(5, 72, 194, 0.5);
@@ -77,25 +79,41 @@ h4.ui.header.inverted {
     opacity: .8;
     color: #7A5193;
 }
+
 footer .copyright {
     line-height: 16px;
     height: 32px;
     opacity: .5;
     font-size: 14px;
 }
+
 .prism {
     position: absolute !important;
     z-index: -1;
 }
+
 .prism--1 {
     top: 200px;
     right: 20px;
 }
+
 .prism--2 {
     top: 450px;
     left: 50px;
 }
+
 .prism--3 {
     top: 1600px;
     left: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .hero {
+        margin: 7rem 0 16rem;
+    }
+    .course {
+        text-align: center;
+    }
+    .icon.circle.thin {display: none}
+    footer .copyright {text-align: center}
 }
