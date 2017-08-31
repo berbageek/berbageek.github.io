@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="184px" viewBox="0 0 128 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>prism 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Desktop-HD" transform="translate(0.000000, -2157.000000)">
+            <g id="prism-3" transform="translate(67.430243, 2253.202176) scale(-1, 1) rotate(-32.000000) translate(-67.430243, -2253.202176) translate(-10.569757, 2160.202176)">
+                <g id="green" transform="translate(43.000000, 69.000000)" stroke="#4BACA5">
+                    <polygon id="Path-2" points="0 0 20 117 73 50"></polygon>
+                    <polygon id="Path-3" points="113 48 20 117 73 50"></polygon>
+                    <polygon id="Path-4" stroke-linecap="round" points="0 0 73 50 113 48"></polygon>
+                </g>
+                <g id="blue" transform="translate(17.344541, 106.206694) scale(-1, 1) rotate(-157.000000) translate(-17.344541, -106.206694) translate(4.344541, 93.206694)" stroke="#24B4E8">
+                    <polygon id="Path-2" points="0 0 4.41982101 25.8117547 16.1323467 11.0306644"></polygon>
+                    <polygon id="Path-3" points="25.1664608 10.3247019 4.51705707 25.8117547 16.2849969 10.773602"></polygon>
+                    <polygon id="Path-4" stroke-linecap="round" points="0 0 16.2579791 10.9699958 25.1664608 10.3247019"></polygon>
+                </g>
+                <g id="green2" transform="translate(113.960565, 19.025309) scale(-1, 1) rotate(-212.000000) translate(-113.960565, -19.025309) translate(100.960565, 5.525309)" stroke="#4BACA5">
+                    <polygon id="Path-2" points="8.52651283e-14 -8.52651283e-14 4.41982101 25.8117547 16.1323467 11.0306644"></polygon>
+                    <polygon id="Path-3" points="24.6494038 11 4 26.4870528 15.7679398 11.4489001"></polygon>
+                    <polygon id="Path-4" stroke-linecap="round" points="8.52651283e-14 -8.52651283e-14 16.2579791 10.9699958 25.1664608 10.3247019"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

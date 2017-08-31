@@ -1,0 +1,85 @@
+* {
+    color: #fff;
+}
+
+body {
+    padding-top: 3rem;
+    background: #192D45;
+    background-image: url("../img/bg-header.jpg");
+    background-position: center -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: #DFE2E5;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    opacity: .8;
+}
+
+h3.ui.header {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px
+}
+
+h4.ui.header.inverted {
+    opacity: .8;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.logo {
+    display: block;
+    width: 180px;
+    margin: auto
+}
+
+.hero {
+    margin: 14rem 0 14rem;
+    text-align: center;
+}
+
+.hero__header {
+    color: #F7FBFF;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 2rem 0 4rem 0;
+}
+
+.hero__subheader {
+    margin: 0 0 0 0;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+.ui.button.primary {
+    border-radius: 100px;
+    background-color: #115BE1;
+    color: #F7FBFF;
+    box-shadow: 0 8px 24px 0 rgba(5, 72, 194, 0.5);
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.ui.button.primary:hover {
+    background-color: #115ff9;
+    box-shadow: 0 12px 28px 0 rgba(5, 72, 194, 0.5);
+}
+
+.ui.list.facilities .icon {
+    margin: 0 1rem;
+    opacity: .8;
+    color: #7A5193;
+}
+footer .copyright {
+    line-height: 16px;
+    height: 32px;
+    opacity: .5;
+    font-size: 14px;
+}
