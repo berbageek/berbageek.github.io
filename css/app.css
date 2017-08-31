@@ -38,7 +38,7 @@ h4.ui.header.inverted {
 }
 
 .hero {
-    margin: 14rem 0 14rem;
+    margin: 12rem 0 16rem;
     text-align: center;
 }
 
@@ -82,4 +82,20 @@ footer .copyright {
     height: 32px;
     opacity: .5;
     font-size: 14px;
+}
+.prism {
+    position: absolute !important;
+    z-index: -1;
+}
+.prism--1 {
+    top: 200px;
+    right: 20px;
+}
+.prism--2 {
+    top: 450px;
+    left: 50px;
+}
+.prism--3 {
+    top: 1600px;
+    left: 0;
 }
