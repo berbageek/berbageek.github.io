@@ -120,5 +120,6 @@ footer .copyright {
         text-align: center;
     }
     .icon.circle.thin {display: none}
+    .ui.image.prism--1 {display: none}
     footer .copyright {text-align: center}
 }
