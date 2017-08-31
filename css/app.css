@@ -1,16 +1,9 @@
 * {
     color: #fff;
 }
-
 body {
-    padding-top: 3rem;
     background: #192D45;
-    background-image: url("../img/bg-header.jpg");
-    background-position: center -50px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
 p {
     color: #DFE2E5;
     font-size: 18px;
@@ -32,6 +25,17 @@ h4.ui.header.inverted {
     margin-top: 1rem;
 }
 
+.headline {
+    padding: 3rem 0 8rem;
+    background-image: url("../img/bg-header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    padding: 6rem 0;
+}
+
 .logo {
     display: block;
     width: 180px;
@@ -39,7 +43,7 @@ h4.ui.header.inverted {
 }
 
 .hero {
-    margin: 12rem 0 16rem;
+    margin-top: 12rem;
     text-align: center;
 }
 
@@ -89,7 +93,6 @@ footer .copyright {
 
 .prism {
     position: absolute !important;
-    z-index: -1;
 }
 
 .prism--1 {
@@ -109,8 +112,10 @@ footer .copyright {
 
 @media only screen and (max-width: 500px) {
     .hero {
-        margin: 7rem 0 16rem;
+        margin-top: 7rem;
     }
+    .headline{padding: 4rem 0}
+    .content{padding: 4rem 0}
     .course {
         text-align: center;
     }
