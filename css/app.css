@@ -1,9 +1,17 @@
 * {
     color: #fff;
 }
+
 body {
     background: #192D45;
 }
+
+.wrapper {
+    background-image: url("../img/bg-footer.svg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
 p {
     color: #DFE2E5;
     font-size: 18px;
@@ -32,6 +40,7 @@ h4.ui.header.inverted {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .content {
     padding: 6rem 0;
 }
@@ -87,9 +96,10 @@ h4.ui.header.inverted {
 footer .copyright {
     line-height: 16px;
     height: 32px;
-    opacity: .5;
-    font-size: 14px;
+    opacity: .8;
+    font-size: 12px;
 }
+footer .copyright a {color: #fff; text-decoration: underline}
 
 .prism {
     position: absolute !important;
@@ -114,12 +124,28 @@ footer .copyright {
     .hero {
         margin-top: 7rem;
     }
-    .headline{padding: 4rem 0}
-    .content{padding: 4rem 0}
+
+    .headline {
+        padding: 4rem 0
+    }
+
+    .content {
+        padding: 4rem 0
+    }
+
     .course {
         text-align: center;
     }
-    .icon.circle.thin {display: none}
-    .ui.image.prism--1 {display: none}
-    footer .copyright {text-align: center}
+
+    .icon.circle.thin {
+        display: none
+    }
+
+    .ui.image.prism--1 {
+        display: none
+    }
+
+    footer .copyright {
+        text-align: center
+    }
 }
