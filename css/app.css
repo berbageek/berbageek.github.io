@@ -96,7 +96,9 @@ h4.ui.header.inverted {
 .mentor__name {
     margin-bottom: .5rem;
     font-weight: normal;
+    font-size: 1.2em;
 }
+.mentor__name a {color: #fff}
 .mentor__position {
     opacity: .8;
 }
