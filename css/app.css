@@ -37,6 +37,10 @@ h5.ui.horizontal.divider.header.inverted {
     color: #7A5193;
 }
 
+.ui.list.inverted .item {
+    color: #333333;
+}
+
 .headline {
     padding: 3rem 0 3rem;
     background-image: url("../img/bg-header.jpg");
